@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Alamofire
 
 enum RepositoriesNetworking {
     case getRepos(username: String)
@@ -49,5 +48,6 @@ extension RepositoriesNetworking: TargetType {
         }
     }
     
-    
 }
+
+

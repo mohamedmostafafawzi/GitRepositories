@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 protocol RepositoriesAPIProtocol {
     func getRepos(username: String, completionHandler: @escaping (Result<[Repository], NSError>) -> Void)
 }

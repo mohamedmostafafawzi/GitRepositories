@@ -23,7 +23,7 @@ class BaseAPI<T:TargetType> {
                 return
             }
             
-            if statusCode == 200 || statusCode == 201 {
+            if statusCode == 200 {
                 
                 guard let jsonResponse = try? response.result.get() else {
                     print("jsonResponse error")
